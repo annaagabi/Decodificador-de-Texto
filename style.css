@@ -1,0 +1,123 @@
+:root{
+    --color-1: #0A3871;
+    --color-2: #495057;
+    --color-3: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F3F5FC;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 40px 240px;
+    gap: 80px;
+}
+
+/* SEÇÃO 1 */
+
+.codificador{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 784px;
+}
+input::placeholder{
+    color: var(--color-1);
+}
+
+input[type=text]{
+    background-color: #F3F5FC;
+    color: var(--color-1);
+    font-size: 32px;
+    border: none;
+    outline: none;
+}
+
+.botoes-texto{
+    font-size: 12px;
+    color: var(--color-2);
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.botoes{
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+}
+.botoes button{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: var(--color-1);
+    color: var(--color-3);
+    font-size: 16px;
+}
+.botoes button:last-child{
+    border: 1px solid var(--color-1);
+    background-color: #D8DFE8;
+    color: var(--color-1);
+}
+
+/* SEÇÃO 2 */
+.Decodificador{
+    background-color: var(--color-3);
+    border-radius: 32px;
+    min-height: 994px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 10px 20px #00000014;
+}
+
+.sem-texto p{
+    font-size: 16px;
+    color: var(--color-2);
+}
+
+.sem-texto h2{
+    font-size: 24px;
+    color: #343A40;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.com-texto p{
+    font-size: 24px;
+    color: var(--color-2);
+}
+.com-texto button{
+    font-size: 16px;
+    color: var(--color-1);
+    background-color: var(--color-3);
+    border: 1px solid var(--color-1);
+    border-radius: 24px;
+    height: 67px;
+    width: 337px;
+}
+
+footer{
+    background-color: var(--color-1);
+    height: 80px;
+    width: 100%;
+    color: var(--color-3);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    position: fixed;
+    bottom: 0;
+}
