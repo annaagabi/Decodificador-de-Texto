@@ -44,11 +44,16 @@ input[type=text]{
 }
 
 .botoes-texto{
-    font-size: 12px;
-    color: var(--color-2);
     display: flex;
     gap: 16px;
     flex-direction: column;
+}
+.alerta{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--color-2);
+    gap: 8px
 }
 .botoes{
     display: flex;
@@ -83,23 +88,23 @@ input[type=text]{
     box-shadow: 10px 10px 20px #00000014;
 }
 
-.sem-texto p{
+.sem-retorno p{
     font-size: 16px;
     color: var(--color-2);
 }
 
-.sem-texto h2{
+.sem-retorno h2{
     font-size: 24px;
     color: #343A40;
     padding-top: 32px;
     padding-bottom: 16px;
 }
 
-.com-texto p{
+.texto-criptografado p{
     font-size: 24px;
     color: var(--color-2);
 }
-.com-texto button{
+.texto-criptografado button{
     font-size: 16px;
     color: var(--color-1);
     background-color: var(--color-3);
@@ -118,6 +123,6 @@ footer{
     display: flex;
     align-items: center;
     padding-left: 50px;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
 }
