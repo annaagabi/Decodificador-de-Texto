@@ -147,7 +147,20 @@ footer{
     font-size: 18px;
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     /* position: fixed;
     bottom: 0; */
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 30px
+}
+
+.redes-sociais img{
+    width: 40px;
+    height: 40px;
 }
