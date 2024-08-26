@@ -60,6 +60,10 @@ input[type=text]{
     gap: 24px;
     align-items: flex-end;
 }
+
+button:hover{
+    cursor: pointer;
+}
 .botoes button{
     width: 328px;
     height: 67px;
