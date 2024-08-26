@@ -9,27 +9,30 @@
 <body>
     <main>
         <section class="codificador">
-            <input type="text" placeholder="Digite seu texto ">
+            <input type="text" placeholder="Digite seu texto" id="texto-inserir">
             <div class="botoes-texto">
                 <div class="alerta">
                     <img src="img/ponto-de-exclamação.svg" alt="Ponto de exclamação em um fundo cinza">
                     <p>Apenas letras minúsculas e sem acento.</p>
                 </div>
                 <div class="botoes">
-                <button type="button" onClick="verificarTexto()" >Criptografar</button>
-                <button type="button" onClick="verificarTexto()" >Descriptografar</button>
+                <button type="button" id="btn-cripto" >Criptografar</button>
+                <button type="button" id="btn-dcripto" >Descriptografar</button>
             </div>
             </div>
         </section>
         <section class="Decodificador">
-            <div class="sem-retorno">
+            <!-- <p id="texto-copiar"></p> -->
+            <div class="sem-retorno" id="sem-retorno">
                 <img src="img/Foto-principal.svg" alt="Homem com uma lupa no olho para ver um diamante">
                 <h2>Nenhuma mensagem encontrada</h2>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
-            <div class="texto-criptografado">
-                <p></p>
-                <button type="button" onclick="copiarTexto()">Copiar</button>
+           
+            <!-- <button type="button" id="btnCopiar" >Copiar</button> -->
+            <div class="texto-criptografado" style="display: none;" id="texto-criptografado">
+                <p id="texto-copiar"></p>
+                <button type="button" id="btnCopiar" onclick="copiarTexto()">Copiar</button>
             </div>
 
         </section>
@@ -37,7 +40,7 @@
     <footer>
         <p>Anna Gabriela - 2024</p>
     </footer>
-    <script src="app.js" defer></script>
+    <script src="app.js"></script>
     
 </body>
 </html>
