@@ -40,3 +40,12 @@ As "chaves" de criptografia utilizadas são:
 ![My Skills](https://skillicons.dev/icons?i=js,html,css)
 
 ## 3. Tela Final
+
+**Tela Inicial**
+
+![alt text](img/Tela-1.png)
+
+
+**Tela com Texto Criptografado**
+
+![alt text](img/Tela-2.png)
