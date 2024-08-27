@@ -31,16 +31,20 @@ main{
     flex-direction: column;
     min-height: 784px;
 }
-input::placeholder{
+textarea::placeholder{
     color: var(--color-1);
 }
 
-input[type=text]{
+textarea{
     background-color: #F3F5FC;
     color: var(--color-1);
     font-size: 32px;
     border: none;
     outline: none;
+    display: flex;
+    flex-wrap: wrap;
+    resize: none;
+    min-height: 400px;
 }
 
 .botoes-texto{
