@@ -124,6 +124,7 @@ button:hover{
     margin-bottom: auto;
     background-color: var(--color-3);
     text-align: justify;
+    min-height: 500px;
 }
 .texto-criptografado button{
     font-size: 16px;
