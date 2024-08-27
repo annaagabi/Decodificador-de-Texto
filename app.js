@@ -17,8 +17,7 @@ btnCripto.addEventListener("click", function(){
             .replace(/o/g, "ober")
             .replace(/u/g, "ufat")
             document.getElementById("texto-criptografado").style.display = "flex";
-            // document.getElementById("btn-copiar").style.display = "block";
-            // document.getElementById("texto-copiar").style.display = "block";
+
             return textoCopiar.innerHTML = palavraCripto
         }
     } else{
@@ -41,8 +40,8 @@ btnDCripto.addEventListener("click", function(){
             .replace(/ufat/g, "u")
             document.getElementById("texto-criptografado").style.display = "flex";
             document.getElementById("texto-criptografado").style.justifyContent= "space-between";
-            // document.getElementById("btn-copiar").style.display = "block";
-            // document.getElementById("texto-copiar").style.display = "block";
+           
+            
             return textoCopiar.innerHTML = palavraDcripto
         }
     } else{
